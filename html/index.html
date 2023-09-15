@@ -7,6 +7,26 @@
 	<body>
 		<form id="f" method="post" action="./loginok.do">
 		아이디 : <input type="text" name="mid"><br>
+		패스워드 :  
+		<input type="button" value="중복확인" id="abc">
+		</form>
+		내용을 변경하겠음3시58분
+		
+		내용 변경시도중 4시222
+		
+		코드 변경 시도 몇번쨰 시도중
+	
+		코드 변경 시도 몇번쨰 계속시도중
+	</body>
+	<script>
+	document.querySelector("#abc").addEventlistener("click",function(){
+		if(f.mid.value==""){
+			alert("아이디를 입력하셔야 합니다.");
+		}	
+		else{
+		      f.submit();
+		      
+=======
 		<input type="button" value="중복확인" id="abc">
 		</form>
 	</body>
@@ -17,6 +37,7 @@
 		}	
 		else{
 		      f.submit();
+>>>>>>> refs/remotes/origin/master
 		}
 	});
 	</script>
